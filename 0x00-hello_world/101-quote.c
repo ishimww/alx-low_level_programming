@@ -1,5 +1,5 @@
 #include <unistd.h>
-#include <fcnt1.h>
+
 #include <string.h>
 /**
  * main - prints a string
