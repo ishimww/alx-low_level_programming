@@ -1,17 +1,11 @@
+#include <stdio.h>
 #include <unistd.h>
-
-#include <string.h>
 /**
- * main - prints a string
- *
- * return: 1(success)
+ * main - Prints out the last part of a quote in the standard error.
+ * Return: 1 if success.
  */
-
 int main(void)
 {
-	const char *message = "and that piece of art is useful" - Dora Korpar, 2015-10-19\n";
-	const char *errorMessage = "This is an errr message\n";
-	write(1, message, sizeof(message) -1);
-	write(2, errorMessage) -1);
+	write(2, "and that piece of art is useful - Dora Korpar, 2015-10-19\n", 58);
 	return (1);
 }		
