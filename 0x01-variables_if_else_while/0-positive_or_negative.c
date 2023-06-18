@@ -4,15 +4,12 @@
 /**
  * main - Entry point
  * Description: 'Check for number if it is positive or negative'
- * return: 0 (success)
+ * return: always 0
  
  */
-
-
 int main(void)
 {
 	int n;
-
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
