@@ -16,12 +16,12 @@ int main(void)
 	       n++;
 	}
 	while (m <= 122);
-              m++;      
 	{
 	       putchar(m);
+	       m++;
 	}
  	putchar('\n');
-		return (0);
+	return (0);
 }		
 
 
