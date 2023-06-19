@@ -3,13 +3,13 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: 'Check for number if it is positive or negative'
- * return: always 0
- 
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
