@@ -15,8 +15,10 @@ int main(void)
 
 		putchar(i + '0');
 		putchar(j + '0');
-		if (j != 89)
+		if (j + '0' = 89)
 		{
+			continue;
+		}	
 
 
 		putchar(',');
