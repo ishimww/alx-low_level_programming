@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints the numbers from 00 to 89, numbers separated by
+ * main - Prints the numbers from 01 to 789, numbers separated by
  *        a comma followed by a space, in ascending order.
  *
  * Return: Always 0.
@@ -12,9 +12,9 @@ int main(void)
 	int j;
 	int k;
 
-	for (i = 0; i <= 8; i++)
+	for (i = 0; i <= 7; i++)
 	{
-		for (j = i + 1; j <= 9; j++)
+		for (j = i + 1; j <= 8; j++)
 		{
 		  for (k = j + 1; j <= 9; k++)
 		    { 	
