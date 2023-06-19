@@ -10,8 +10,8 @@ int main(void)
 
 	while (n <= 122)
 	{
-		if (n == 71 || n == 65)
-		{
+		if (n == 101 || n == 113
+		{		
 			n++;
 		        continue;
 		}
