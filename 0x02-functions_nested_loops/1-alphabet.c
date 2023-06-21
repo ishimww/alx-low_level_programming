@@ -1,11 +1,6 @@
 #include  "main.h"
 /**
-  * print_alphabet_x10 - Make alphabet x10 times
-  *
-  * Return: void
-  */
-/**
-  * print_alphabet - Make the alphabet
+  * print_alphabet - print the lowercase  alphabet
   *
   * Return: void
   */
@@ -20,6 +15,19 @@ void print_alphabet(void)
 
 	_putchar('\n');
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
