@@ -1,20 +1,22 @@
 #include "main.h"
 
 /**
- * more_numbers - nmbr 
+ * more_numbers - nmbr
  * Return: no return
  */
 void more_numbers(void)
 {
 	int a;
-	int b;
-	for (a = 1; a <=10; j++)
+	int j;
+
+	for (a = 0; a <= 14; a++)
 	{
-		for (b = 0; b <= 14; b++)
+		for (j = 0; j < 10; j++)
 		{
-			_putchar(b);
+			_putchar(i + '0');
+			_putchar(' ');
 		}
 		_putchar('\n');
-		Return (0);
+		Return(0);
 	}
-}	
+}
