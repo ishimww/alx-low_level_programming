@@ -1,22 +1,22 @@
+
+
 #include "main.h"
 
 /**
- * more_numbers - nmbr
- * Return: no return
+ * more_numbers - Prints the numbers 0-14 ten times.
  */
 void more_numbers(void)
 {
-	int a;
-	int j;
+	int n, c;
 
-	for (a = 0; a <= 14; a++)
+	for (c = 0; c <= 10; c++)
 	{
-		for (j = 0; j < 10; j++)
+		for (n = 0; n <= 14; n++)
 		{
-			_putchar(a + '0');
-			_putchar(' ');
+			if (n >=  10)
+				_putchar((n 10) + '0');
+			_putchar((n % 10) + '0');
 		}
 		_putchar('\n');
-
 	}
 }
