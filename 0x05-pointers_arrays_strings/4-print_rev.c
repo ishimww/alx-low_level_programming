@@ -2,12 +2,13 @@
 /**
  * print_rev -  a function that prints a string, in reverse.
  *@length: length of string
+ *@s: string to print
  * Return: Always 0.
  */
 void print_rev(char *s)
 {
 	int length = 0;
-	int 0;
+	char *s = str;
 
 
 	while (*s != '\0')
@@ -17,7 +18,7 @@ void print_rev(char *s)
 	}
 	while (length > 0)
 	{
-		end--;
+		s--;
 		_putchar(*s);
 		length--;
 	}
