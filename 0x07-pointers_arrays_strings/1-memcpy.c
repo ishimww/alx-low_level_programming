@@ -1,4 +1,5 @@
-/**
+#include "main.h"
+/*
  * _memcpy - a function that copies memory area
  *@i
  *@n: value of bytes to start when adding
