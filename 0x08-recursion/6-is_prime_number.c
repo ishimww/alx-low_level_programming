@@ -25,4 +25,4 @@ int helper_prime(int n, int i, int limit)
 		return (helper_prime(n, i + 1, limit));
 	else
 		return (1);
-}	
+}
